@@ -1,0 +1,5 @@
+<textarea runat="server" class="form-control" id="summernote" name="summernote"></textarea>
+<asp:Button ID="btnSave" runat="server" Text="Save" OnClick=" btnSave_Click" />
+
+<asp:Button ID="btnGet" runat="server" Text="Get" OnClick=" btnGet_Click" />
+<div runat="server" id="body"></div>
